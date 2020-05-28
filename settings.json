@@ -1,0 +1,33 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "solid",
+    "editor.matchBrackets": "always",
+    "editor.suggestSelection": "first",
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Dracula",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "window.zoomLevel": 0,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "enabled": true,
+        "args": []
+    },
+    "breadcrumbs.enabled": true,
+    "go.autocompleteUnimportedPackages": true,
+    "go.useLanguageServer": true,
+    "go.formatTool": "gofmt",
+    "go.languageServerFlags": [
+    
+    ]
+}
