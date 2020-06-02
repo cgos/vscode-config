@@ -24,10 +24,25 @@
         "args": []
     },
     "breadcrumbs.enabled": true,
-    "go.autocompleteUnimportedPackages": true,
     "go.useLanguageServer": true,
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        },
+        // Optional: Disable snippets, as they conflict with completion ranking.
+        "editor.snippetSuggestions": "none",
+    },
+    "[go.mod]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        },
+    },
     "go.formatTool": "gofmt",
     "go.languageServerFlags": [
     
-    ]
+    ],
+    "go.autocompleteUnimportedPackages": true,
+    "go.testFlags": ["-v"],
 }
