@@ -3,6 +3,7 @@
     "editor.cursorBlinking": "solid",
     "editor.matchBrackets": "always",
     "editor.suggestSelection": "first",
+    "editor.wordWrap": "on",
     "files.autoSave": "onFocusChange",
     "workbench.colorTheme": "Dracula",
     "workbench.editor.enablePreview": false,
