@@ -21,8 +21,10 @@
         ]
     },
     "terraform.languageServer": {
-        "enabled": true,
-        "args": []
+        "external": true,
+        "args": [
+            "serve"
+        ]
     },
     "breadcrumbs.enabled": true,
     "go.useLanguageServer": true,
@@ -45,5 +47,10 @@
     
     ],
     "go.autocompleteUnimportedPackages": true,
-    "go.testFlags": ["-v"],
+    "go.testFlags": [
+        "-v"
+    ],
+    "yaml.schemas": {
+        "file:///toc.schema.json": "/toc\\.yml/i"
+    },
 }
